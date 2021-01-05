@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility class */
+.text-center{
+  text-align: center;
+}
+.display-block{
+  display: block;
+}
+.inline-block{
+  display: inline-block;
+}
+.cursor{
+  cursor:pointer;
+}
+.color-white{
+  color: #ffffff;
+}
+.color-lightblack{
+  color: black;
+  opacity: 0.6;
+}
+.color-red{
+  color: red;
+}
+.color-grey{
+  color: #cccccc;
+}
+.bg-color-pink{
+  background-color: pink;
+}
+.bg-color-red{
+  background-color: red;
+}
+.bold{
+  font-weight: bold;
+}
+.size-30{
+  font-size: 30px;
+}
+.size-20{
+  font-size: 20px;
+}
+.size-15{
+  font-size: 15px;
+}
+.border-none{
+  border: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+.ml-20{
+  margin-left: 20px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.pr-15{
+  padding-right: 15px;
+}
+.mx-15{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.my-15{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mx-30{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.my-30{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.px-15{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.py-15{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.px-30{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.py-30{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* end utility class */
+
+
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+header {
+  width: 100%;
+  background-color: orange;
+  position: relative;
+}
+header img.logo{
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(20px, -60px);
+}
+
+.gruppo-1,
+.gruppo-2 {
+  width: 45%;
+}
+.gruppo-1 img,
+.gruppo-2 img {
+  width: 20%;
+  vertical-align: middle;
+}
+.gruppo-1 input,
+.gruppo-2 input {
+  vertical-align: middle;
+}
+
+footer{
+  height: 100px;
+  margin-top:100px;
+}
+footer h1{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+footer h1{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+footer span{
+  padding-top:38px;
+  padding-bottom: 39px;
+}
+
+.calculate button{
+  width: 100px;
+  padding:10px;
+  background-color: orange;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
