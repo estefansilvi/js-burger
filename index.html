@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Crea il tuo Hamburger</title>
+  </head>
+  <body>
+  <div class="container">
+    <header>
+      <h1 class="px-15 py-30 color-white bolder">Create your Hamburger</h1>
+      <img class="logo" src="img/burger-top.png" alt="">
+    </header>
+    <main class="factory mb-15">
+<!-- inserimento nome hamburger -->
+      <div>
+         <input class=" size-15 mx-15 my-15 border-none" type="text" name="burger-name" id="burger-name" placeholder="Name your burger">
+      </div>
+<!-- end inserimento nome hamburger -->
+
+<!-- lista ingredienti da scegliere -->
+      <div class='chose-element'>
+        <h4 class="mx-15 color-lightblack size-15">Ingredients</h4>
+        <div class="gruppo-1 inline-block  fl mx-15 my-30">
+          <div>
+            <label class="bold size-20  my-15 " for="cheese"><img class=" pr-15 py-15"src="img/cheese.svg" alt="">Cheese</label>
+            <input type="checkbox" id="cheese" class="mr-20 cursor" name="list[]" value='7'><span class="color-red size-20">add</span>
+          </div>
+          <div>
+            <label class="bold size-20 my-15 " for="egg"><img class=" pr-15 py-15"src="img/fried-egg.svg" alt="">Egg</label>
+            <input type="checkbox" id="egg" class="mr-20 cursor" name="list[]" value='6'><span class="color-red size-20">add</span>
+          </div>
+          <div>
+            <label class="bold size-20 my-15 " for="mustard"><img class=" pr-15 py-15"src="img/mustard.svg" alt="">Mustard</label>
+            <input type="checkbox" id="mustard" class="mr-20 cursor" name="list[]" value='3'><span class="color-red size-20">add</span>
+          </div>
+        </div>
+
+        <div class="gruppo-2 inline-block  mx-15 my-30">
+          <div>
+            <label class="bold size-20 my-15" for="tomato"><img class=" pr-15 py-15 "src="img/tomato.svg" alt="">Tomato</label>
+            <input type="checkbox" id="tomato" class="mr-20 cursor" name="list[]" value='2'><span class="color-red size-20">add</span>
+          <div>
+          </div>
+            <label class="bold size-20 my-15" for="lettuce"><img class=" pr-15 py-15"src="img/lettuce.svg" alt="">Lettuce</label>
+            <input type="checkbox" id="lettuce" class="mr-20 cursor" name="list[]" value='2'><span class="color-red size-20">add</span>
+          </div>
+          <div>
+            <label class="bold size-20 my-15 " for="ketchup"><img class=" pr-15 py-15"src="img/ketchup.svg" alt="">Ketchup</label>
+            <input type="checkbox" id="ketchup" class="mr-20 cursor" name="list[]" value='3'><span class="color-red size-20">add</span>
+         </div>
+       </div>
+     </div>
+
+<!-- end lista ingredienti da scegliere -->
+<!-- coupon per lo sconto -->
+    <div class=" display-block">
+     <span class="color-grey size-15 mx-15">Discount Coupon</span> <input class="  size-15 mx-15 my-15  border-none bg-color-pink" type="text" name="coupon" id="coupon" placeholder="">
+   </div>
+<!-- end coupon per lo sconto -->
+
+<!-- calcolo del prezzo finale del panino -->
+    <div class=" calculate text-center my-15">
+      <button id='checkout' class=" size-15  cursor" type="button" name="button">calculate</button>
+    </div>
+  </main>
+<!-- end calcolo del prezzo finale del panino -->
+  <footer class="bg-color-red">
+    <h1 class="color-white size-30 mx-15 inline-block">Your price</h1>
+    <span id="price"class=" color-white size-30 fr mx-15"></span>
+  </footer>
+  <script type="text/javascript" src="js/script.js">
+
+  </script>
+  </body>
+</html>
