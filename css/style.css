@@ -115,10 +115,10 @@
   width: 1200px;
 }
 header {
-  width: 100%;
   background-color: orange;
   position: relative;
 }
+
 header img.logo{
   width: 20%;
   position: absolute;
@@ -127,35 +127,19 @@ header img.logo{
   transform: translate(20px, -60px);
 }
 
-.gruppo-1,
-.gruppo-2 {
+.chose-element .gruppo-1,
+.chose-element .gruppo-2 {
   width: 45%;
 }
-.gruppo-1 img,
-.gruppo-2 img {
+.chose-element .gruppo-1 img,
+.chose-element .gruppo-2 img {
   width: 20%;
   vertical-align: middle;
 }
-.gruppo-1 input,
-.gruppo-2 input {
-  vertical-align: middle;
-}
 
-footer{
-  height: 100px;
-  margin-top:100px;
-}
-footer h1{
-  padding-top:30px;
-  padding-bottom: 30px;
-}
-footer h1{
-  padding-top:30px;
-  padding-bottom: 30px;
-}
-footer span{
-  padding-top:38px;
-  padding-bottom: 39px;
+.chose-element .gruppo-1 input,
+.chose-element .gruppo-2 input {
+  vertical-align: middle;
 }
 
 .calculate button{
@@ -165,4 +149,11 @@ footer span{
   border-radius: 8px;
   border: none;
   font-weight: bold;
+}
+
+footer{
+  height: 100px;
+  margin-top:100px;
+  padding-top:30px;
+  padding-bottom: 30px;
 }
